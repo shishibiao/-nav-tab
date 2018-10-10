@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0730341D212ED54500CEF287 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0730341C212ED54500CEF287 /* AppDelegate.m */; };
+		07303423212ED54500CEF287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07303421212ED54500CEF287 /* Main.storyboard */; };
+		07303425212ED54800CEF287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07303424212ED54800CEF287 /* Assets.xcassets */; };
+		0730342B212ED54800CEF287 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0730342A212ED54800CEF287 /* main.m */; };
+		07303435212ED54800CEF287 /* InPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07303434212ED54800CEF287 /* InPhotoTests.m */; };
+		07303440212ED54800CEF287 /* InPhotoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0730343F212ED54800CEF287 /* InPhotoUITests.m */; };
+		0730344F212ED5AD00CEF287 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0730344E212ED5AD00CEF287 /* RootViewController.m */; };
+		07303453212EDA5A00CEF287 /* SSBNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 07303452212EDA5A00CEF287 /* SSBNavigationBar.m */; };
+		07303458212EF2EC00CEF287 /* SSBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07303457212EF2EC00CEF287 /* SSBBaseViewController.m */; };
+		0730345F21300B6C00CEF287 /* SSBBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0730345E21300B6C00CEF287 /* SSBBaseNavigationViewController.m */; };
+		0730346521352A0800CEF287 /* SSBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0730346421352A0800CEF287 /* SSBTabBar.m */; };
+		0730346C213542AF00CEF287 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 07303467213542AE00CEF287 /* UIView+Extension.m */; };
+		0730346D213542AF00CEF287 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 07303468213542AF00CEF287 /* UIColor+Extension.m */; };
+		0730347121354C5D00CEF287 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0730347021354C5D00CEF287 /* HomeViewController.m */; };
+		0730347421354C6D00CEF287 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0730347321354C6D00CEF287 /* FindViewController.m */; };
+		0730347721354C7D00CEF287 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0730347621354C7D00CEF287 /* MineViewController.m */; };
+		0730347A213558E300CEF287 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07303479213558E300CEF287 /* SetViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07303431212ED54800CEF287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07303410212ED54500CEF287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07303417212ED54500CEF287;
+			remoteInfo = InPhoto;
+		};
+		0730343C212ED54800CEF287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07303410212ED54500CEF287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07303417212ED54500CEF287;
+			remoteInfo = InPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07303418212ED54500CEF287 /* InPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0730341B212ED54500CEF287 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0730341C212ED54500CEF287 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07303422212ED54500CEF287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07303424212ED54800CEF287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07303429212ED54800CEF287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0730342A212ED54800CEF287 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07303430212ED54800CEF287 /* InPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07303434212ED54800CEF287 /* InPhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InPhotoTests.m; sourceTree = "<group>"; };
+		07303436212ED54800CEF287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0730343B212ED54800CEF287 /* InPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0730343F212ED54800CEF287 /* InPhotoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InPhotoUITests.m; sourceTree = "<group>"; };
+		07303441212ED54800CEF287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0730344D212ED5AD00CEF287 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0730344E212ED5AD00CEF287 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		07303451212EDA5A00CEF287 /* SSBNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSBNavigationBar.h; sourceTree = "<group>"; };
+		07303452212EDA5A00CEF287 /* SSBNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSBNavigationBar.m; sourceTree = "<group>"; };
+		07303455212EF12E00CEF287 /* InPhotoPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InPhotoPrefixHeader.pch; sourceTree = "<group>"; };
+		07303456212EF2EC00CEF287 /* SSBBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSBBaseViewController.h; sourceTree = "<group>"; };
+		07303457212EF2EC00CEF287 /* SSBBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSBBaseViewController.m; sourceTree = "<group>"; };
+		0730345B212FD97A00CEF287 /* SSBMediaStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSBMediaStatus.h; sourceTree = "<group>"; };
+		0730345C213006E800CEF287 /* Interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
+		0730345D21300B6C00CEF287 /* SSBBaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSBBaseNavigationViewController.h; sourceTree = "<group>"; };
+		0730345E21300B6C00CEF287 /* SSBBaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSBBaseNavigationViewController.m; sourceTree = "<group>"; };
+		0730346321352A0800CEF287 /* SSBTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSBTabBar.h; sourceTree = "<group>"; };
+		0730346421352A0800CEF287 /* SSBTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSBTabBar.m; sourceTree = "<group>"; };
+		07303466213542AE00CEF287 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		07303467213542AE00CEF287 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		07303468213542AF00CEF287 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		0730346B213542AF00CEF287 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		0730346F21354C5D00CEF287 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0730347021354C5D00CEF287 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0730347221354C6D00CEF287 /* FindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		0730347321354C6D00CEF287 /* FindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		0730347521354C7D00CEF287 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		0730347621354C7D00CEF287 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		07303478213558E300CEF287 /* SetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		07303479213558E300CEF287 /* SetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07303415212ED54500CEF287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0730342D212ED54800CEF287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07303438212ED54800CEF287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0730340F212ED54500CEF287 = {
+			isa = PBXGroup;
+			children = (
+				0730341A212ED54500CEF287 /* InPhoto */,
+				07303433212ED54800CEF287 /* InPhotoTests */,
+				0730343E212ED54800CEF287 /* InPhotoUITests */,
+				07303419212ED54500CEF287 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07303419212ED54500CEF287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07303418212ED54500CEF287 /* InPhoto.app */,
+				07303430212ED54800CEF287 /* InPhotoTests.xctest */,
+				0730343B212ED54800CEF287 /* InPhotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0730341A212ED54500CEF287 /* InPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				07303462213529BE00CEF287 /* SSBTabBar */,
+				07303459212FD8FE00CEF287 /* Macro */,
+				07303454212EDBB500CEF287 /* SSBBaseViewController */,
+				07303450212ED9F900CEF287 /* SSBNavigationBar */,
+				0730341B212ED54500CEF287 /* AppDelegate.h */,
+				0730341C212ED54500CEF287 /* AppDelegate.m */,
+				07303421212ED54500CEF287 /* Main.storyboard */,
+				07303424212ED54800CEF287 /* Assets.xcassets */,
+				07303429212ED54800CEF287 /* Info.plist */,
+				0730342A212ED54800CEF287 /* main.m */,
+				07303478213558E300CEF287 /* SetViewController.h */,
+				07303479213558E300CEF287 /* SetViewController.m */,
+				0730344D212ED5AD00CEF287 /* RootViewController.h */,
+				0730344E212ED5AD00CEF287 /* RootViewController.m */,
+				0730346F21354C5D00CEF287 /* HomeViewController.h */,
+				0730347021354C5D00CEF287 /* HomeViewController.m */,
+				0730347221354C6D00CEF287 /* FindViewController.h */,
+				0730347321354C6D00CEF287 /* FindViewController.m */,
+				0730347521354C7D00CEF287 /* MineViewController.h */,
+				0730347621354C7D00CEF287 /* MineViewController.m */,
+			);
+			path = InPhoto;
+			sourceTree = "<group>";
+		};
+		07303433212ED54800CEF287 /* InPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				07303434212ED54800CEF287 /* InPhotoTests.m */,
+				07303436212ED54800CEF287 /* Info.plist */,
+				07303455212EF12E00CEF287 /* InPhotoPrefixHeader.pch */,
+			);
+			path = InPhotoTests;
+			sourceTree = "<group>";
+		};
+		0730343E212ED54800CEF287 /* InPhotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0730343F212ED54800CEF287 /* InPhotoUITests.m */,
+				07303441212ED54800CEF287 /* Info.plist */,
+			);
+			path = InPhotoUITests;
+			sourceTree = "<group>";
+		};
+		07303450212ED9F900CEF287 /* SSBNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				07303451212EDA5A00CEF287 /* SSBNavigationBar.h */,
+				07303452212EDA5A00CEF287 /* SSBNavigationBar.m */,
+			);
+			path = SSBNavigationBar;
+			sourceTree = "<group>";
+		};
+		07303454212EDBB500CEF287 /* SSBBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07303456212EF2EC00CEF287 /* SSBBaseViewController.h */,
+				07303457212EF2EC00CEF287 /* SSBBaseViewController.m */,
+				0730345D21300B6C00CEF287 /* SSBBaseNavigationViewController.h */,
+				0730345E21300B6C00CEF287 /* SSBBaseNavigationViewController.m */,
+			);
+			path = SSBBaseViewController;
+			sourceTree = "<group>";
+		};
+		07303459212FD8FE00CEF287 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				0730346B213542AF00CEF287 /* UIColor+Extension.h */,
+				07303468213542AF00CEF287 /* UIColor+Extension.m */,
+				07303466213542AE00CEF287 /* UIView+Extension.h */,
+				07303467213542AE00CEF287 /* UIView+Extension.m */,
+				0730345B212FD97A00CEF287 /* SSBMediaStatus.h */,
+				0730345C213006E800CEF287 /* Interface.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		07303462213529BE00CEF287 /* SSBTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0730346321352A0800CEF287 /* SSBTabBar.h */,
+				0730346421352A0800CEF287 /* SSBTabBar.m */,
+			);
+			path = SSBTabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07303417212ED54500CEF287 /* InPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07303444212ED54800CEF287 /* Build configuration list for PBXNativeTarget "InPhoto" */;
+			buildPhases = (
+				07303414212ED54500CEF287 /* Sources */,
+				07303415212ED54500CEF287 /* Frameworks */,
+				07303416212ED54500CEF287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InPhoto;
+			productName = InPhoto;
+			productReference = 07303418212ED54500CEF287 /* InPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0730342F212ED54800CEF287 /* InPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07303447212ED54800CEF287 /* Build configuration list for PBXNativeTarget "InPhotoTests" */;
+			buildPhases = (
+				0730342C212ED54800CEF287 /* Sources */,
+				0730342D212ED54800CEF287 /* Frameworks */,
+				0730342E212ED54800CEF287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07303432212ED54800CEF287 /* PBXTargetDependency */,
+			);
+			name = InPhotoTests;
+			productName = InPhotoTests;
+			productReference = 07303430212ED54800CEF287 /* InPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0730343A212ED54800CEF287 /* InPhotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0730344A212ED54800CEF287 /* Build configuration list for PBXNativeTarget "InPhotoUITests" */;
+			buildPhases = (
+				07303437212ED54800CEF287 /* Sources */,
+				07303438212ED54800CEF287 /* Frameworks */,
+				07303439212ED54800CEF287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0730343D212ED54800CEF287 /* PBXTargetDependency */,
+			);
+			name = InPhotoUITests;
+			productName = InPhotoUITests;
+			productReference = 0730343B212ED54800CEF287 /* InPhotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07303410212ED54500CEF287 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "石世彪";
+				TargetAttributes = {
+					07303417212ED54500CEF287 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					0730342F212ED54800CEF287 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 07303417212ED54500CEF287;
+					};
+					0730343A212ED54800CEF287 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 07303417212ED54500CEF287;
+					};
+				};
+			};
+			buildConfigurationList = 07303413212ED54500CEF287 /* Build configuration list for PBXProject "InPhoto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0730340F212ED54500CEF287;
+			productRefGroup = 07303419212ED54500CEF287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07303417212ED54500CEF287 /* InPhoto */,
+				0730342F212ED54800CEF287 /* InPhotoTests */,
+				0730343A212ED54800CEF287 /* InPhotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07303416212ED54500CEF287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07303425212ED54800CEF287 /* Assets.xcassets in Resources */,
+				07303423212ED54500CEF287 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0730342E212ED54800CEF287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07303439212ED54800CEF287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07303414212ED54500CEF287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07303458212EF2EC00CEF287 /* SSBBaseViewController.m in Sources */,
+				0730342B212ED54800CEF287 /* main.m in Sources */,
+				0730347721354C7D00CEF287 /* MineViewController.m in Sources */,
+				0730347A213558E300CEF287 /* SetViewController.m in Sources */,
+				0730347421354C6D00CEF287 /* FindViewController.m in Sources */,
+				0730345F21300B6C00CEF287 /* SSBBaseNavigationViewController.m in Sources */,
+				0730346521352A0800CEF287 /* SSBTabBar.m in Sources */,
+				0730346D213542AF00CEF287 /* UIColor+Extension.m in Sources */,
+				0730347121354C5D00CEF287 /* HomeViewController.m in Sources */,
+				0730341D212ED54500CEF287 /* AppDelegate.m in Sources */,
+				07303453212EDA5A00CEF287 /* SSBNavigationBar.m in Sources */,
+				0730346C213542AF00CEF287 /* UIView+Extension.m in Sources */,
+				0730344F212ED5AD00CEF287 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0730342C212ED54800CEF287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07303435212ED54800CEF287 /* InPhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07303437212ED54800CEF287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07303440212ED54800CEF287 /* InPhotoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07303432212ED54800CEF287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07303417212ED54500CEF287 /* InPhoto */;
+			targetProxy = 07303431212ED54800CEF287 /* PBXContainerItemProxy */;
+		};
+		0730343D212ED54800CEF287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07303417212ED54500CEF287 /* InPhoto */;
+			targetProxy = 0730343C212ED54800CEF287 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07303421212ED54500CEF287 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07303422212ED54500CEF287 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07303442212ED54800CEF287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07303443212ED54800CEF287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07303445212ED54800CEF287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = /Users/biao/Desktop/InPhoto/InPhotoTests/InPhotoPrefixHeader.pch;
+				INFOPLIST_FILE = InPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Photo.InPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		07303446212ED54800CEF287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = /Users/biao/Desktop/InPhoto/InPhotoTests/InPhotoPrefixHeader.pch;
+				INFOPLIST_FILE = InPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Photo.InPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		07303448212ED54800CEF287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Photo.InPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InPhoto.app/InPhoto";
+			};
+			name = Debug;
+		};
+		07303449212ED54800CEF287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Photo.InPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InPhoto.app/InPhoto";
+			};
+			name = Release;
+		};
+		0730344B212ED54800CEF287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Photo.InPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InPhoto;
+			};
+			name = Debug;
+		};
+		0730344C212ED54800CEF287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Photo.InPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InPhoto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07303413212ED54500CEF287 /* Build configuration list for PBXProject "InPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07303442212ED54800CEF287 /* Debug */,
+				07303443212ED54800CEF287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07303444212ED54800CEF287 /* Build configuration list for PBXNativeTarget "InPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07303445212ED54800CEF287 /* Debug */,
+				07303446212ED54800CEF287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07303447212ED54800CEF287 /* Build configuration list for PBXNativeTarget "InPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07303448212ED54800CEF287 /* Debug */,
+				07303449212ED54800CEF287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0730344A212ED54800CEF287 /* Build configuration list for PBXNativeTarget "InPhotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0730344B212ED54800CEF287 /* Debug */,
+				0730344C212ED54800CEF287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07303410212ED54500CEF287 /* Project object */;
+}
